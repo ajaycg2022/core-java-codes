@@ -1,0 +1,50 @@
+
+/*create a class called Employee(employeeId,employeeName,employeeEmail,employeeMobNo,employeeDOB,employeeDOJ)
+readEmployeeDetails
+displayEmployeeDetails*/
+
+package com.cg.oopsinjava;
+
+import java.nio.channels.ScatteringByteChannel;
+import java.sql.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+
+public class Employee {
+	int employeeID;
+	String employeeName;
+	String employeeEmail;
+	long employeeMobNo;
+	Date employeeDOB;
+	Date employeeDOJ;
+	
+	Scanner sc  = new Scanner(System.in);
+	private 
+	void readempdatails() throws ParseException{
+		System.out.println("Enter the Employee data");
+		System.out.println("Enter the employee id");
+		employeeID=sc.nextInt();
+		System.out.println("Enter the employee name");
+		employeeName=sc.nextLine();
+		System.out.println("enter the employee Mobile Number");
+		employeeMobNo=sc.nextLong();
+		System.out.println("Enter the employee dob in 'dd/MM/yyyy' ");
+		String dob = sc.nextLine();
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		employeeDOB = sdf.parse(dob);
+		
+		
+	}
+	
+	void displayemployeedatils() {
+		System.out.println("Enter employee data..........");
+		System.out.println("employee ID::"+employeeID);
+		System.out.println("employee name::"+employeeName);
+		System.out.println("emploee Mobile Number::"+employeeMobNo);
+		System.out.println("Employee dob = " + employeeDOB.getDate()+"/"+employeeDOB.getMonth()+"/"+employeeDOB.getYear());
+	}
+	
+
+}

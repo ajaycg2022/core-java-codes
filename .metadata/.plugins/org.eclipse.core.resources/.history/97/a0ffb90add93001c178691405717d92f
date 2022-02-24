@@ -1,0 +1,11 @@
+package operations;
+
+public class UnaryOperation {
+
+	public static void main(String[] args) {
+		int a=2;
+		System.out.println(a);//no operation 
+		System.out.println(++a); //it will increment a first and then it will print a
+	}
+
+}

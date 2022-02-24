@@ -1,0 +1,27 @@
+package com.cg.oopsinjava;
+
+import java.sql.Date;
+import java.util.Scanner;
+
+public class Student {
+
+	public static void main(String[] args) {
+		int studentId;
+		
+		String studentName;
+		Date studentDOB;
+	}
+		Scanner sc =new Scanner(System.in);
+		
+		void readStudentDetails() {
+			System.out.println("enter the student data");
+			
+			System.out.println("enter student id"+studentID);
+			 int studentID = sc.nextInt();
+		System.out.println("enter the student name");
+		String studentName= sc.nextLine();
+		
+
+	}
+
+}

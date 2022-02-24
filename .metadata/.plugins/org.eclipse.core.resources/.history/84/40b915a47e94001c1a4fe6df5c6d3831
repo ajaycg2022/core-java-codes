@@ -1,0 +1,13 @@
+package arraypractice;
+
+import java.util.Scanner;
+
+public class ArrayUsingForAndForEachLoop {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+
+	}
+
+}

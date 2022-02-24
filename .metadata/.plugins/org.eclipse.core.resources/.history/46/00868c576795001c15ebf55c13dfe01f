@@ -1,0 +1,13 @@
+
+package com.cg.oopsinjava;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		
+		Employee e1=new Employee();
+		e1.readempDatails();
+		e1.displayemployeedatils();
+	}
+
+}

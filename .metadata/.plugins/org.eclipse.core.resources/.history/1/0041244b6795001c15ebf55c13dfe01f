@@ -1,0 +1,11 @@
+
+package com.cg.oopsinjava;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

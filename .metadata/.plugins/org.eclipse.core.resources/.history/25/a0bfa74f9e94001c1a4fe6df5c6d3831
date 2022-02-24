@@ -1,0 +1,10 @@
+package arraypractice;
+
+public class PositiveNegativeNumberCheck {
+
+	public static void main(String[] args) {
+		int countP=0;countN=0;countZ=0,i;
+
+	}
+
+}

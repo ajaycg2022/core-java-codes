@@ -1,0 +1,19 @@
+
+/*create a class called Employee(employeeId,employeeName,employeeEmail,employeeMobNo,employeeDOB,employeeDOJ)
+readEmployeeDetails
+displayEmployeeDetails*/
+
+package com.cg.oopsinjava;
+
+import java.sql.Date;
+
+public class Employee {
+	int employeeID;
+	String employeeNam;
+	String employeeEmail;
+	long employeeMobNo;
+	Date employeeDOB;
+	Date employeeDOJ;
+	
+
+}

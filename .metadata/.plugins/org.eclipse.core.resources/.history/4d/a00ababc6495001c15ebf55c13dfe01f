@@ -1,0 +1,14 @@
+/*create a class called Employee(employeeId,employeeName,employeeEmail,employeeMobNo,employeeDOB,employeeDOJ)
+readEmployeeDetails
+displayEmployeeDetails*/
+
+package com.cg.oopsinjava;
+
+public class StudentMain1 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

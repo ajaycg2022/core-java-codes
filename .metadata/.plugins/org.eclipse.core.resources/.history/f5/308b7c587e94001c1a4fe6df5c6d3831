@@ -1,0 +1,10 @@
+package arraypractice;
+
+public class ArrayUsingForAndForEachLoop {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package stringsexamples;
+
+import java.util.Scanner;
+
+public class SplitString {
+
+	public static void main(String[] args) {
+		String message;
+		   //System.out.println("find the index of character");
+		   Scanner sc =new Scanner(System.in);
+		   
+		   System.out.println("Enter the string");
+		   message=sc.nextLine();
+		   
+		String [] s =message.split(" ");
+		System.out.println("String devided into two parts::" +message);
+		System.out.println(message);
+
+	}
+
+}
+
+

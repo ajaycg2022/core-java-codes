@@ -1,0 +1,10 @@
+package arraypractice;
+import java.util.Scanner;
+public class ArrayInitialization {
+
+	public static void main(String[] args) {
+		char [] word= {'b','c','a','z','e'};
+
+	}
+
+}

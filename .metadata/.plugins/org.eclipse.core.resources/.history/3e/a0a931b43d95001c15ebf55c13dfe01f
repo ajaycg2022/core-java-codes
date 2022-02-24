@@ -1,0 +1,11 @@
+package stringsexamples;
+
+import java.util.Scanner;
+
+public class MaxOccuringCharacter {
+
+	public static void main(String[] args) {
+		
+
+}
+}

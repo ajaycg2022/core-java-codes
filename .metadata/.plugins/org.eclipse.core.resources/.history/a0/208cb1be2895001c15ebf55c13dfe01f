@@ -1,0 +1,20 @@
+package stringsexamples;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		String str= new String();
+		str="strings in java"; ///this is one format of defining String
+		
+		String str1=new String("this is string"); // second format
+		String str2="this is another string";     // third format
+		
+		char[] city= {'a','b','c','d'};
+		   String myCity=new String(city);
+		   System.out.println(myCity.charAt(0));
+		   
+		}
+
+	}
+
+

@@ -1,0 +1,19 @@
+package stringsexamples;
+
+public class SplitString {
+
+	public static void main(String[] args) {
+		String str="This is new string";
+		String [] s =str.split(" ")
+
+	}
+
+}
+
+
+String str4="This is a string";
+String [] words =str.split(" ");
+System.out.println("String devided in two words");
+System.out.println("===========================");
+for(String w :words) {
+	   System.out.println(w);

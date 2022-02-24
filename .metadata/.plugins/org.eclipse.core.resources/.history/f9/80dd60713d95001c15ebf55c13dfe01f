@@ -1,0 +1,24 @@
+package stringsexamples;
+
+import java.util.Scanner;
+
+public class MaxOccuringCharacter {
+
+	public static void main(String[] args) {
+		
+		String message;
+		// System.out.println("find the index of character");
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the string");
+		message = sc.nextLine();
+
+		
+		   for(String w ) {
+			   System.out.println(w);
+			   
+		   }
+
+	}
+
+}

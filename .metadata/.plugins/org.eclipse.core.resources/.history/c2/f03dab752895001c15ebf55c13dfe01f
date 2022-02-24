@@ -1,0 +1,18 @@
+package stringsexamples;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		String str= new String();
+		str="strings in java"; ///this is one format of defining String
+		
+		String str1=new String("this is string"); // second format
+		String str2="this is another string";     // third format
+		
+		char[] str3= {'a','b','c','d'};
+		   String str4=new String(str3);
+		}
+
+	}
+
+}
