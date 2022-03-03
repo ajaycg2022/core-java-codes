@@ -1,0 +1,16 @@
+package com.cg.oopsinjava;
+
+import java.util.Scanner;
+
+public class StudentMarks {
+
+	public static void main(String[] args) {
+		int roll;
+		float s1,s2,s3;
+		Scanner sc=new Scanner(System.in);
+		
+		
+
+	}
+
+}

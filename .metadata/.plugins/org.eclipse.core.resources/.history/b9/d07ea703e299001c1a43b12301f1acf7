@@ -1,0 +1,12 @@
+package com.cg.oopsinjavapolymorphism;
+
+public class MainPolumorphism {
+
+	public static void main(String[] args) {
+		ContractEmployee ce=new ContractEmployee();
+		ce.printEmployeeDetails(); //both are same methods but in second method parameter is different
+		ce.printEmployeeDetails(0);
+
+	}
+
+}

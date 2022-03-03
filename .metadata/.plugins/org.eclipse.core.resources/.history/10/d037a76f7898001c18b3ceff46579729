@@ -1,0 +1,13 @@
+package com.cg.oopsinjava.inheritance5;
+
+public class Item {
+String name;
+String description;
+double price;
+
+void readItemDetails() {
+	
+}
+
+
+}

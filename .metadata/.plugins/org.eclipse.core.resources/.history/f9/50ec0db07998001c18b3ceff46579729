@@ -1,0 +1,24 @@
+package com.cg.oopsinjava.inheritance5;
+
+public class Mp3 extends Item {
+	String duration;
+	void readMp3Details() {
+		System.out.println("enter the Mp3 song");
+
+		System.out.println("enter the name of the Artist");
+		name = sc.nextLine();
+
+		System.out.println("enter the duration of the song");
+		description = sc.nextLine();
+
+
+	}
+
+	void printMp3Details() {
+		System.out.println("Entered detail of the Item is ");
+		System.out.println(" name of the item = " + name);
+		
+
+	}
+
+}

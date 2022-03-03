@@ -1,0 +1,25 @@
+package edunextallprograms;
+
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int n=0;
+		int [] values =new int[n];
+		Scanner sc=new Scanner(System.in);
+		int sum=0;
+		System.out.println("enter the values of arrays");
+		
+		for(int i =0; i<values.length;i++) {
+			sum=sum+values[i];
+		values[i]=sc.nextInt();
+		
+		System.out.println(sum);
+		
+		
+		}
+
+	}
+
+}

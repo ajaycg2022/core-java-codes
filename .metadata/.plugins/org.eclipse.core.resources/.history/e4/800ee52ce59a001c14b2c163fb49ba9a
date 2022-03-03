@@ -1,0 +1,5 @@
+package com.cg.oopsinjavainterfaceexample;
+
+public class Comparison extends ArithmeticOperations {
+
+}

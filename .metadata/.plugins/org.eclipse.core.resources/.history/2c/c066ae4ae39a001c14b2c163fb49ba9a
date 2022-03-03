@@ -1,0 +1,8 @@
+package com.cg.oopsinjavainterfaceexample;
+
+public interface Calculator extends ArithmeticOperations {
+
+}
+
+
+//check how to implement interface (task)

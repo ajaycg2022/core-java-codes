@@ -1,0 +1,7 @@
+package com.cg.oopsinjava.abstraction;
+
+public class Rectangle extends Shape {
+
+double width,length,are,perimeter;
+
+

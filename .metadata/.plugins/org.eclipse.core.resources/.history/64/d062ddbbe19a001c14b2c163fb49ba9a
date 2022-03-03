@@ -1,0 +1,14 @@
+package com.cg.oopsinjavainterfaceexample;
+
+public interface ArithmeticOperations {
+	public static final int a = 0;
+	void add(); //by default methods are public here in interfaces
+	void sub();
+	void mul();
+	void div();
+	void mod();
+	
+	
+	
+
+}

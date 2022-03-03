@@ -1,0 +1,5 @@
+package com.cg.oopsinjavainterfaceexample;
+
+public interface Calculator implements ArithmeticOperations {
+
+}

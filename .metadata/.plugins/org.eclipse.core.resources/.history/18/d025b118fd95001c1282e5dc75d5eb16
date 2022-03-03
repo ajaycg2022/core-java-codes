@@ -1,0 +1,29 @@
+//Write a program to print the roll number and average marks of 8 students in three subjects (each out of 100). The marks are entered by user.
+
+package com.cg.oopsinjava;
+
+import java.util.Scanner;
+
+public class StudentMarks {
+
+	public static void main(String[] args) {
+		int roll, s1,s2,s3;
+		
+		Scanner sc=new Scanner(System.in);
+		
+		for(int i=1;i<8;i++) {
+			
+		
+		System.out.println("Enter the Roll number");
+		roll=sc.nextInt();
+		
+		System.out.println("Enter your first ubject marks");
+		
+		
+		
+		
+
+	}
+
+}
+}

@@ -1,0 +1,17 @@
+//Write a program to calculate the average height of all the students of a class. The number of students and their heights in a class are entered by user.
+
+
+package com.cg.oopsinjava;
+
+import java.util.Scanner;
+
+public class AverageHeight {
+
+	public static void main(String[] args) {
+		int size;
+		
+		Scanner sc =new Scanner(System.in);
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.cg.oopsinjava.inheritance4;
+
+public class Sbi extends Bank {
+
+	
+}

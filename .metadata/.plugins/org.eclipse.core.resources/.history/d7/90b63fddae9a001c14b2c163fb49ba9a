@@ -1,0 +1,17 @@
+package com.cg.oopsinjava.statickeyword;
+
+public class StaticVariableExample {
+
+	public static void main(String[] args) {
+		static int i=0;
+		
+		public StaticVariableExample() {
+			i++;
+		}
+void display() {
+	i++;
+	
+}
+	}
+
+}

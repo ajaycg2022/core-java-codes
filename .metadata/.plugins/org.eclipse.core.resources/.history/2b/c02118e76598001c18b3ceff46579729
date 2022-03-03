@@ -1,0 +1,9 @@
+package com.cg.oopsinjava.inheritance3;
+
+public class Person {
+
+	
+	String personName;
+	String personAddress;
+	
+}

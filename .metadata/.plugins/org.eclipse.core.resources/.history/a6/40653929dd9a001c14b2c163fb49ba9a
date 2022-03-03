@@ -1,0 +1,29 @@
+package com.cg.oopsinjava.gettersetter;
+
+
+	public class MainAbstract {
+
+
+
+		public static void main(String[] args)
+		{
+		Shape sh=new Shape();
+		System.out.println(sh.toString());
+
+		Circle c=new Circle();
+		System.out.println(c.toString());
+
+		Rectangle r=new Rectangle();
+		System.out.println(r.toString());
+
+		Square s=new Square();
+		System.out.println(s.toString());
+
+
+
+		}
+
+
+
+		}
+}

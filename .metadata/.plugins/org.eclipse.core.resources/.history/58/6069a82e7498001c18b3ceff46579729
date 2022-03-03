@@ -1,0 +1,9 @@
+package com.cg.oopsinjava.inheritance4;
+
+public class Axis extends Bank {
+public static void main(String[] args) {
+	Axis a1=new Axis();
+	a1.readAxisDetails();
+	a1.printAxisDetails();
+}
+}

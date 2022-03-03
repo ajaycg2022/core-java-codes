@@ -1,0 +1,23 @@
+package com.cg.oopsinjava.inheritance3;
+
+public class Student extends Person {
+    int year;
+	double fee;
+	
+	void readStudentDetails() {
+		System.out.println("Enter the Student details........");
+		
+		System.out.println("Enter the student year.....");
+		sc.nextLine();
+		personName = sc.nextLine();
+		System.out.println("Enter the person address.....");
+		personAddress = sc.nextLine();
+}
+
+	void printStudentDetails() {
+		System.out.println("Entered person details are ........");
+		
+		System.out.println("Employee name = " + personName);
+		System.out.println("Employee address = "+personAddress);
+	}
+}

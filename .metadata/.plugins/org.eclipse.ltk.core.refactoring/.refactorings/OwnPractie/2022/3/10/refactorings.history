@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;edunextallprograms.FahrenheitToCelsius.java&apos; to &apos;Source.java&apos;&#x0D;&#x0A;- Original project: &apos;OwnPractie&apos;&#x0D;&#x0A;- Original element: &apos;edunextallprograms.FahrenheitToCelsius.java&apos;&#x0D;&#x0A;- Renamed element: &apos;edunextallprograms.Source.java&apos;" description="Rename compilation unit &apos;FahrenheitToCelsius.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;edunextallprograms{FahrenheitToCelsius.java" name="Source.java" references="false" stamp="1646285991678" version="1.0"/>
+</session>

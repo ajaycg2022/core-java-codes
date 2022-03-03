@@ -1,0 +1,27 @@
+package com.cg.oopsinjava.inheritance3;
+
+import java.util.Scanner;
+
+public class Person {
+
+	
+	String personName;
+	String personAddress;
+	Scanner sc = new Scanner(System.in);
+	void readPersonDetails() {
+		System.out.println("Enter the Person details........");
+		
+		System.out.println("Enter the person name.....");
+		sc.nextLine();
+		personName = sc.nextLine();
+		System.out.println("Enter the person address.....");
+		personAddress = sc.nextLine();
+}
+
+	void printPersonDetails() {
+		System.out.println("Entered person details are ........");
+		
+		System.out.println("Employee name = " + employeeName);
+		System.out.println("Employee address = "+employeeAddress);
+	}
+}

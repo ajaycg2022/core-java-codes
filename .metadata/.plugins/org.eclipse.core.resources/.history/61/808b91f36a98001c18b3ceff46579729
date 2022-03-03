@@ -1,0 +1,16 @@
+package com.cg.oopsinjava.inheritance4;
+
+public class Bank {
+	
+  float simpleIntrest,time,principalAmount,rate;
+  
+ void getDetails() {
+	 System.out.println("Emter the details");
+	 
+	 System.out.println("Enter the rate ");
+ }
+  
+
+	
+
+}

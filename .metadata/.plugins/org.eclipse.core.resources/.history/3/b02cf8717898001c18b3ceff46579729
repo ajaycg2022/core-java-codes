@@ -1,0 +1,16 @@
+package com.cg.oopsinjava.inheritance5;
+
+public class Item {
+String name;
+String description;
+double price;
+Scanner sc=new Scanner(System.in);
+void readItemDetails() {
+	System.out.println("enter the item");
+	
+	System.out.println("enter the name of the item");
+	
+}
+
+
+}

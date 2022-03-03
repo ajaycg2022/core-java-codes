@@ -1,0 +1,11 @@
+package com.cg.oopsinjava.inheritance4;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+		Bank b1=new Bank();
+		b1.readDetails();
+		b1.printDetails();
+	}
+
+}

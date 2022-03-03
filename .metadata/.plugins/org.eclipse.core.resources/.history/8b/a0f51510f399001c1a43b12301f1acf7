@@ -1,0 +1,10 @@
+package com.cg.oopsinjava.accessspecifiersdemo;
+
+import com.cg.oopsinjava.accessspecifiers.Sample;
+
+public class AccessspecifierMain {
+
+	public static void main(String[] args) {
+		Sample sm=new Sample();//because sample class is public you can access anywhere in Project
+	}
+}

@@ -1,0 +1,13 @@
+package com.cg.oopsinjava.inheritance3;
+
+public class PersonMain {
+
+	public static void main(String[] args) {
+		Person pr = new Person() ;
+			
+		pr.readPersonDetails();
+		pr.printPersonDetails();
+
+	}
+
+}

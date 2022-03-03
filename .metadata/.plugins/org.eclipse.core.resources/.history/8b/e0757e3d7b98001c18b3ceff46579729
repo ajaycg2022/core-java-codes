@@ -1,0 +1,29 @@
+package com.cg.oopsinjava.inheritance5;
+
+public class Book extends Item {
+
+	float duration;
+	String actorName;
+	String certification;
+
+	void readBookDetails() {
+		System.out.println("enter the Mp3 song");
+		
+		System.out.println("enter the Certificate name");// Central board of film certification(CBFC)
+		certification = sc.nextLine();
+		
+		System.out.println("enter the name of the Actor");
+		actorName = sc.nextLine();
+
+		System.out.println("enter the duration in hrs");
+		duration = sc.nextFloat();
+
+	}
+
+	void printbookDetails() {
+		System.out.println("Certificate name= ");//CBFC
+		System.out.println("Entered detail of the Item is = ");
+		System.out.println(" Duration = " + duration);
+
+	}
+}

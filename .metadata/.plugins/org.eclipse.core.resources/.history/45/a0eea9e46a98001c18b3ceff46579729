@@ -1,0 +1,10 @@
+package com.cg.oopsinjava.inheritance4;
+
+public class Bank {
+	
+  float simpleIntrest,time,principalAmount,rate;
+  
+
+	
+
+}

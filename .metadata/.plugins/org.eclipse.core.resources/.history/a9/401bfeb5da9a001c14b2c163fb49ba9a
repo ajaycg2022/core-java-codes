@@ -1,0 +1,6 @@
+package com.cg.oopsinjava.gettersetter;
+
+public class Shape {
+
+	String colour="red";
+}

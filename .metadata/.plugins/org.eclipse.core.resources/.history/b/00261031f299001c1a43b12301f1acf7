@@ -1,0 +1,8 @@
+package com.cg.oopsinjava.accessspecifiers;
+
+public class Sample {
+
+	void display() {
+		System.out.println("display method in sample class");
+	}
+}

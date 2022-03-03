@@ -1,0 +1,30 @@
+package com.cg.oopsinjava.inheritance4;
+
+public class Axis extends Bank {
+	void readAxisDetails() {
+		System.out.println("Emter the ICICI bank details");
+
+		System.out.println("Enter the Simple Intrest ");
+		simpleIntrest = sc.nextFloat();
+
+		System.out.println("Enter the time ");
+		time = sc.nextFloat();
+
+		System.out.println("Enter the principalAmount ");
+		principalAmount = sc.nextFloat();
+	}
+
+	void printAxisDetails() {
+		System.out.println("Emtered details are");
+
+		System.out.println("simpleIntrest = " + simpleIntrest);
+
+		System.out.println(" time in years =" + time);
+
+		System.out.println(" principalAmount = " + principalAmount);
+		
+		rateOfIntrest=(simpleIntrest*100)/(principalAmount*time);
+		System.out.println("Rate Of intrest "+rateOfIntrest);
+
+	}
+}

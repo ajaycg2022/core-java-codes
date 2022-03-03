@@ -1,0 +1,38 @@
+package com.cg.oopsinjava.inheritance4;
+
+import java.util.Scanner;
+
+public class Bank {
+
+	float simpleIntrest, time, principalAmount, rate;
+
+	Scanner sc = new Scanner(System.in);
+
+	void readDetails() {
+		System.out.println("Emter the details");
+
+		System.out.println("Enter the rate ");
+		rate = sc.nextFloat();
+
+		System.out.println("Enter the time ");
+		time = sc.nextFloat();
+
+		System.out.println("Enter the principalAmount ");
+		principalAmount = sc.nextFloat();
+	}
+
+	void printDetails() {
+		System.out.println("Emtered details are");
+
+		System.out.println("rate = " + rate);
+
+		System.out.println(" time =" + time);
+
+		System.out.println(" principalAmount = " + principalAmount);
+		simpleIntrest=(principalAmount*rate*time)/100;
+		
+		System.out.println("Simple intrest "+simpleIntrest);
+
+	}
+
+}

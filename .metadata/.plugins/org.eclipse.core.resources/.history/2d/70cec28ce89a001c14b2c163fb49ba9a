@@ -1,0 +1,6 @@
+package com.cg.oopsinjava.abstraction;
+
+public abstract class Shape {
+
+String color;
+	

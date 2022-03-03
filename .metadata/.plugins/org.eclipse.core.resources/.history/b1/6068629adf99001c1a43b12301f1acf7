@@ -1,0 +1,11 @@
+package com.cg.oopsinjavapolymorphism;
+
+public class ContractEmployee extends Employee {
+	float salary;
+	
+	@override
+	void calculateSalary() {
+		
+	}
+
+}
